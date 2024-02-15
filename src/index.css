@@ -1,11 +1,12 @@
 /* Body */
 body {
-  background: linear-gradient(135deg, #f3e7e9 0%, #c7c7e2 100%);
+  background: linear-gradient(135deg, #f5f5f5 0%, #dddddd 100%);
   color: #333;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
+
 
 /* Header */
 #intro {

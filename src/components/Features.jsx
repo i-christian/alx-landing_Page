@@ -2,7 +2,7 @@ import React from 'react';
 
 const Features = () => {
   return (
-    <section id="features">
+    <section id="features" className="fade-in-up">
       <div className="max-container">
         <h2>Key Features</h2>
         <div className="feature-grid">
@@ -31,4 +31,3 @@ const Features = () => {
 }
 
 export default Features;
-

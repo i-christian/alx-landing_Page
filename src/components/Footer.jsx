@@ -24,7 +24,7 @@ const Footer = () => {
   }
 
   return (
-    <footer id="about">
+    <footer id="about" className="fade-in-up">
       <div className="max-container">
         <div className="footer-column">
           <h2>About Our Project</h2>
@@ -34,15 +34,14 @@ const Footer = () => {
         <div className="footer-column">
           <h2>Follow Us</h2>
           <div className="social-links">
-            <a href="#">LinkedIn</a>
-            <span>&nbsp;</span> {/* Add space between buttons */}
-            <a href="#">GitHub</a>
+            <a href="#" className="fade-in-up">LinkedIn</a>
+            <a href="#" className="fade-in-up">GitHub</a>
           </div>
         </div>
       </div>
       <div className="footer-bottom">
         <p>&copy; {currentYear} PixelEscape. All rights reserved.</p>
-        <button id="back-to-top-btn" onClick={scrollToTop}>Back to Top</button>
+        <button id="back-to-top-btn" onClick={scrollToTop} className="fade-in-up">Back to Top</button>
       </div>
     </footer>
   );
