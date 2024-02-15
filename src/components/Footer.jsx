@@ -28,7 +28,7 @@ const Footer = () => {
       <div className="max-container">
         <div className="footer-column">
           <h2>About</h2>
-          <p>PixelEscape is a groundbreaking gaming project that seeks to redefine the gaming experience. Our mission is to provide players with a captivating and immersive journey through innovative features and engaging gameplay.</p>
+          <p>PixelEscape is a classic raycasting 3D gaming project that seeks to add nostalgia to the gaming experience. Our mission is to provide players with a captivating and immersive journey through innovative features and engaging gameplay.</p>
           <p>Developed as part of the Portfolio Project at Holberton School, PixelEscape represents our commitment to pushing the boundaries of creativity and technical excellence in the world of game development.</p>
         </div>
         <div className="footer-column">
